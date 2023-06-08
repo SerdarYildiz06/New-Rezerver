@@ -1,6 +1,9 @@
-// Platform  Firebase App Id
-// android   1:1005791965398:android:31b2d36bea68d23837d977
-// ios       1:1005791965398:ios:29ef2250d3144f6337d977
+/*
+ * File name: main.dart
+ * Last modified: 2022.02.18 at 19:24:11
+ * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Copyright (c) 2022
+ */
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -26,18 +29,17 @@ void initServices() async {
   await Get.putAsync(() => LaravelApiClient().init());
   await Get.putAsync(() => FirebaseProvider().init());
   await Get.putAsync(() => SettingsService().init());
-  Get.lazyPut(() => LaravelApiClient());
   await Get.putAsync(() => TranslationService().init());
   Get.log('All services started...');
 }
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  initServices();
+  await initServices();
 
   runApp(
     GetMaterialApp(
-      title: 'ASDS',
+      title: Get.find<SettingsService>().setting.value.appName,
       initialRoute: Theme1AppPages.INITIAL,
       onReady: () async {
         await Get.putAsync(() => FireBaseMessagingService().init());
