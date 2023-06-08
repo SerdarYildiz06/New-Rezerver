@@ -25,9 +25,8 @@ void initServices() async {
   await Get.putAsync(() => AuthService().init());
   await Get.putAsync(() => LaravelApiClient().init());
   await Get.putAsync(() => FirebaseProvider().init());
-  // await Get.putAsync(() => SettingsService().init());
-  Get.put(SettingsService().init());
-
+  await Get.putAsync(() => SettingsService().init());
+  Get.lazyPut(() => LaravelApiClient());
   await Get.putAsync(() => TranslationService().init());
   Get.log('All services started...');
 }
@@ -38,7 +37,7 @@ void main() async {
 
   runApp(
     GetMaterialApp(
-      title: Get.find<SettingsService>().setting.value.appName,
+      title: 'ASDS',
       initialRoute: Theme1AppPages.INITIAL,
       onReady: () async {
         await Get.putAsync(() => FireBaseMessagingService().init());
