@@ -1,10 +1,3 @@
-/*
- * File name: settings_service.dart
- * Last modified: 2023.02.09 at 15:14:57
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
- * Copyright (c) 2023
- */
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

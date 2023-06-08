@@ -944,13 +944,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "beauty_salons_customer",
+      "name": "rezerver",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2023-06-08T05:37:23.147364Z",
+  "generated": "2023-06-08T06:06:23.372828Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

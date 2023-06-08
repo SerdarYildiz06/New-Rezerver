@@ -6,7 +6,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.smartersvision.beauty_salons">
+          package="com.rezerver.app">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -19,7 +19,7 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-            android:label="Beauty Salons"
+            android:label="Rezerver"
             android:name="${applicationName}"
             android:icon="@mipmap/ic_launcher"
             android:usesCleartextTraffic="true">

@@ -62,7 +62,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.smartersvision.beauty_salons"
+        applicationId "com.rezerver.app"
         minSdkVersion 20
         targetSdkVersion 33
         multiDexEnabled true

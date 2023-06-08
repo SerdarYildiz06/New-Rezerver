@@ -1,42 +1,77 @@
 {
   "project_info": {
-    "project_number": "82342958619",
-    "project_id": "beautysalons-9a815",
-    "storage_bucket": "beautysalons-9a815.appspot.com"
+    "project_number": "1005791965398",
+    "project_id": "rezerver-app",
+    "storage_bucket": "rezerver-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:82342958619:android:5d2afd95efb2fab7a08abe",
+        "mobilesdk_app_id": "1:1005791965398:android:31b2d36bea68d23837d977",
         "android_client_info": {
-          "package_name": "com.smartersvision.beauty_salons"
+          "package_name": "com.rezerver.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "82342958619-0tt7ca2s9hbtcho1kh2bpl0omns9o23t.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.smartersvision.beauty_salons",
-            "certificate_hash": "12bbf8e25752b28535e857994fa30ba36641e0f0"
-          }
-        },
-        {
-          "client_id": "82342958619-3t21nu75klsc22oqi39qf591urj6c1pq.apps.googleusercontent.com",
+          "client_id": "1005791965398-v23m1mm0i9pdoiaoloun612gq3qehkcg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBzQDWAcKmrRNlSl2k36HSIEGAW5VGu_QI"
+          "current_key": "AIzaSyAVg1xxaqKA9O_GSDh9ApoDwnkOPVVlplo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "82342958619-3t21nu75klsc22oqi39qf591urj6c1pq.apps.googleusercontent.com",
+              "client_id": "1005791965398-v23m1mm0i9pdoiaoloun612gq3qehkcg.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1005791965398-ftr9gktdllc8u5hnvs4omi1e5l01tm6n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rezerver.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005791965398:android:7f921d1561ed641f37d977",
+        "android_client_info": {
+          "package_name": "com.smartersvision.beauty_salons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005791965398-v23m1mm0i9pdoiaoloun612gq3qehkcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVg1xxaqKA9O_GSDh9ApoDwnkOPVVlplo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005791965398-v23m1mm0i9pdoiaoloun612gq3qehkcg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1005791965398-ftr9gktdllc8u5hnvs4omi1e5l01tm6n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rezerver.app"
+              }
             }
           ]
         }
